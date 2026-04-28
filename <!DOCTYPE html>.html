@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conclave SITRA AHRA | Evento Esotérico</title>
+    <style>
+        :root {
+            --primary: #1a0b2e; /* Roxo Profundo */
+            --accent: #d4af37;  /* Dourado Ocultista */
+            --text: #e0e0e0;
+            --card-bg: #25163d;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--primary);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://media.istockphoto.com/id/1499961929/pt/foto/black-magic-book-of-spells-runes-and-candles-on-ritual-witch-table-occult-esoteric-and-fortune.jpg?s=1024x1024&w=is&k=20&c=7UYCihmtTDYRmUElklEjDuioevG1RkEH4EzoefmzgQY=') center/cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 { font-size: 3.5rem; color: var(--accent); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 5px; }
+        p.subtitle { font-size: 1.2rem; margin-bottom: 30px; font-style: italic; }
+
+        .btn-container { display: flex; gap: 20px; }
+        .btn {
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+            border: 2px solid var(--accent);
+        }
+        .btn-gold { background: var(--accent); color: var(--primary); }
+        .btn-outline { color: var(--accent); }
+        .btn:hover { transform: scale(1.05); filter: brightness(1.2); }
+
+        section { padding: 80px 10%; }
+        h2 { text-align: center; color: var(--accent); font-size: 2.5rem; margin-bottom: 40px; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 10px;
+            border-bottom: 4px solid var(--accent);
+            transition: translateY 0.3s;
+        }
+        .card:hover { transform: translateY(-10px); }
+        .card h3 { color: var(--accent); margin-top: 0; }
+
+        .live-tag {
+            background: #ff4d4d;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            vertical-align: middle;
+        }
+
+        footer {
+            background: #0d0617;
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Conclave <br>Sitra Ahra</h1>
+        <p class="subtitle">Onde a Magia Ancestral encontra o Futuro Digital</p><br>
+        Data do Evento: 26 de maio de 2026.<br>
+        Local: Espaço Cultural Municipal<br>
+        Horário: das 14h às 19h<br>
+        Live ao Vivo no Canal "Sitra Ahra - com Morphyne"<br><br>
+        <div class="btn-container">
+            <a href="#ingressos" class="btn btn-gold">Ingresso Presencial</a>
+            <a href="#live" class="btn btn-outline">Acesso à Live</a>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <h2>O Evento</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Palestras & Ocultismo</h3>
+                <p>Mergulhe no conhecimento de grandes bruxos e estudiosos sobre hermetismo, bruxaria tradicional e alta magia.</p>
+            </div>
+            <div class="card">
+                <h3>Consultas Oraculares</h3>
+                <p>Tarot, Runas e Astrologia com profissionais renomados em espaços reservados para sua introspecção.</p>
+            </div>
+            <div class="card">
+                <h3>Meditação ao Vivo <span class="live-tag">LIVE</span></h3>
+                <p>Sintonize sua energia em meditações guiadas coletivas, presenciais ou no conforto da sua casa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="feira" style="background-color: #201135;">
+        <h2>Feira Mística & Artes</h2>
+        <p style="text-align: center;">Explore nosso mercado de artigos esotéricos, livros raros e artes exclusivas dos expositores.</p>
+        <div class="grid">
+            <div class="card" style="text-align: center;">
+                <strong>Grimórios e Literatura</strong>
+            </div>
+            <div class="card" style="text-align: center;">
+                <strong>Ervas e Cristais</strong>
+            </div>
+            <div class="card" style="text-align: center;">
+                <strong>Arte Sacra e Oculta</strong>
+            </div>
+        </div>
+    </section>
+
+    <section id="ingressos">
+        <h2>Garanta sua Presença</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Acesso Digital</h3>
+                <p>Acesso total às lives e meditações online.</p>
+                <p><strong>R$ 44,00</strong></p>
+                <a href="#" class="btn btn-outline" style="display: block; text-align: center;">Comprar</a>
+            </div>
+            <div class="card" style="border: 2px solid var(--accent);">
+                <h3>Acesso Presencial</h3>
+                <p>Entrada na feira, palestras e 1 brinde místico.</p>
+                <p><strong>R$ 88,00</strong></p>
+                <a href="#" class="btn btn-gold" style="display: block; text-align: center;">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Conclave dos Arcanos - Que assim seja! By Morphyne (Ana Claudia C. Abreu)</p>
+    </footer>
+
+</body>
+</html>
